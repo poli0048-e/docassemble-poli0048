@@ -33,19 +33,18 @@ include:
 mandatory: True
 question: Breach of Contract App
 subquestion: |
-  This is the first or 'Welcome' screen that the user
-  sees when they run the app.  This screen should describe
-  what the app does to the user.
+  Welcome. This application works to provide users with information surrounding the 
+  appropriate course of action in which they should take is they are in a situation
+  where a breach of contract has occurred. 
+  
+  This application does not seek to provide professional legal advice, but rather aims   to inform users of the next steps they should take. This applciation should not be 
+  interpreted as legal advice and should not replace genuine legal advice. In order to
+  proceed, users must accept the above discalimer.
+  
+  If the user does accept the above disclaimer, please select 'I agree and wish to 
+  continue'. If the user does not accept the above disclaimer, please select 'I do 
+  not agree and wish to exit'.
 
-  The screen may also need to include a disclaimer, particularly
-  as this app is providing legal advice.
-
-  The screen should contain a click-through agreement indicating
-  the user agrees to the disclaimer and any other terms before
-  proceeding.
-
-  The screen should also give the user the option to exit the
-  app at this point
 buttons:
   - I agree and wish to continue: continue
   - I do not agree and wish to exit: exit
